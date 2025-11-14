@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+button {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* ホバーで変化 */
+.fade-button {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #0bd;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* 背景色の変化をアニメーション */
+}
+.fade-button:hover {
+  background-color: #05b; /* ホバー時の背景色 */
+}
+
+/* クリックで変化 */
+#fade-button-js {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #07f;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* ピンク色に変化 */
+.fade-button-pink {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #f77; /* ← カスタマイズポイント */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.fade-button-pink:hover {
+  background-color: #fcc; /* ← カスタマイズポイント */
+}
+
+/* ランダムに変化 */
+#fade-button-random {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #07f;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+

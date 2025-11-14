@@ -1,0 +1,21 @@
+button {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* 押し込まれているボタン */
+.press-button {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #0bd;
+  box-shadow: 0 4px 4px rgba(0, 126, 148, 0.4); /* 通常の影 */
+  cursor: pointer;
+  transition: translate 0.2s ease, box-shadow 0.2s ease;
+}
+.press-button:hover {
+  translate: 0 2px; /* ボタンが下がる */
+  box-shadow: 0 2px 4px rgba(0, 126, 148, 0.2); /* 影を薄く */
+}
